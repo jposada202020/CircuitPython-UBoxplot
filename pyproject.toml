@@ -11,14 +11,14 @@ requires = [
 ]
 
 [project]
-name = "circuitpython-boxplot"
+name = "circuitpython-uboxplot"
 description = "calculates boxplot and creates its graphical representation"
 version = "0.0.0+auto.0"
 readme = "README.rst"
 authors = [
     {name = "Jose D. Montoya", email = "boxplot@mailmeto.mozmail.com"}
 ]
-urls = {Homepage = "https://github.com/jposada202020/CircuitPython_boxplot"}
+urls = {Homepage = "https://github.com/jposada202020/CircuitPython-UBoxplot.git"}
 keywords = [
     "adafruit",
     "blinka",
@@ -44,7 +44,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-modules = ["circuitpython_boxplot"]
+py-modules = ["circuitpython_uboxplot"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
