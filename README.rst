@@ -2,13 +2,13 @@ Introduction
 ============
 
 
-.. image:: https://readthedocs.org/projects/circuitpython-boxplot/badge/?version=latest
+.. image:: https://readthedocs.org/projects/circuitpython-uboxplot/badge/?version=latest
     :target: https://circuitpython-boxplot.readthedocs.io/
     :alt: Documentation Status
 
 
-.. image:: https://github.com/jposada202020/CircuitPython_boxplot/workflows/Build%20CI/badge.svg
-    :target: https://github.com/jposada202020/CircuitPython_boxplot/actions
+.. image:: https://github.com/jposada202020/CircuitPython_uboxplot/workflows/Build%20CI/badge.svg
+    :target: https://github.com/jposada202020/CircuitPython_uboxplot/actions
     :alt: Build Status
 
 
@@ -84,7 +84,7 @@ For library usage please refer to the examples folder.
 
 Documentation
 =============
-API documentation for this library can be found on `Read the Docs <https://circuitpython-boxplot.readthedocs.io/>`_.
+API documentation for this library can be found on `Read the Docs <https://circuitpython-uboxplot.readthedocs.io/>`_.
 
 For information on building library documentation, please check out
 `this guide <https://learn.adafruit.com/creating-and-sharing-a-circuitpython-library/sharing-our-docs-on-readthedocs#sphinx-5-1>`_.
