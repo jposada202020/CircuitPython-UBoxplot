@@ -32,18 +32,18 @@ or individual libraries can be installed using
 =====================
 
 On supported GNU/Linux systems like the Raspberry Pi, you can install the driver locally `from
-PyPI <https://pypi.org/project/circuitpython-boxplot/>`_.
+PyPI <https://pypi.org/project/circuitpython-uboxplot/>`_.
 To install for current user:
 
 .. code-block:: shell
 
-    pip3 install circuitpython-boxplot
+    pip3 install circuitpython-uboxplot
 
 To install system-wide (this may be required in some cases):
 
 .. code-block:: shell
 
-    sudo pip3 install circuitpython-boxplot
+    sudo pip3 install circuitpython-uboxplot
 
 To install in a virtual environment in your current project:
 
@@ -52,7 +52,7 @@ To install in a virtual environment in your current project:
     mkdir project-name && cd project-name
     python3 -m venv .venv
     source .env/bin/activate
-    pip3 install circuitpython-boxplot
+    pip3 install circuitpython-uboxplot
 
 Installing to a Connected CircuitPython Device with Circup
 ==========================================================
@@ -69,7 +69,7 @@ following command to install:
 
 .. code-block:: shell
 
-    circup install boxplot
+    circup install uboxplot
 
 Or the following command to update an existing version:
 
@@ -93,5 +93,5 @@ Contributing
 ============
 
 Contributions are welcome! Please read our `Code of Conduct
-<https://github.com/jposada202020/CircuitPython_boxplot/blob/HEAD/CODE_OF_CONDUCT.md>`_
+<https://github.com/jposada202020/CircuitPython_uboxplot/blob/HEAD/CODE_OF_CONDUCT.md>`_
 before contributing to help this project stay welcoming.
