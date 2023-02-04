@@ -18,6 +18,8 @@ Introduction
 
 Calculates boxplot and creates its graphical representation
 
+.. image:: https://github.com/jposada202020/CircuitPython_UBoxplot/blob/main/docs/boxplot.jpg
+
 
 Dependencies
 =============
