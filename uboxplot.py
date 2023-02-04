@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: MIT
 """
-`boxplot`
+`uboxplot`
 ================================================================================
 
 Calculates boxplot and creates its graphical representation
@@ -38,6 +38,7 @@ import displayio
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/jposada202020/CircuitPython_boxplot.git"
 
+
 # pylint: disable=too-many-instance-attributes, too-many-arguments, invalid-name
 class Boxplot(displayio.TileGrid):
     """A BoxPlot TileGrid. The origin is set using ``x`` and ``y``.
@@ -53,15 +54,14 @@ class Boxplot(displayio.TileGrid):
     :param int fill_color: background color to use defaults to black (0x000000)
     :param int line_color: background color to use defaults to white (0xFFFFFF)
 
-
-    **Quickstart: Importing and using Boxplot**
+    **Quickstart: Importing and using UBoxplot**
 
     Here is one way of importing the `Boxplot` class so you can use it as
     the name ``Boxplot``:
 
     .. code-block:: python
 
-        from boxplot import Boxplot
+        from uboxplot import Boxplot
         import displayio
 
     Now you can create a boxplot at pixel position x=20, y=30 using:
@@ -82,7 +82,7 @@ class Boxplot(displayio.TileGrid):
 
     **Summary: Boxplot Features and input variables**
 
-    The `boxplot` TileGrid has some options for controlling its position, visible appearance,
+    The `uboxplot` TileGrid has some options for controlling its position, visible appearance,
     through a collection of input variables:
 
         - **position**: ``x``, ``y``
@@ -90,7 +90,6 @@ class Boxplot(displayio.TileGrid):
         - **size**: ``width`` and ``height``
 
         - **color**: ``background_color``, ``fill_color``, ``line_color``
-
 
         - **range**: ``xrange`` and ``yrange`` This is the range in absolute units.
           For example, when using (20-90), the X axis will start at 20 finishing at 90.

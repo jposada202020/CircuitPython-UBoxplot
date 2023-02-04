@@ -7,7 +7,7 @@ Simple test to display a boxplot based in some data
 """
 import displayio
 import board
-from boxplot import Boxplot
+from uboxplot import Boxplot
 
 display = board.DISPLAY
 
