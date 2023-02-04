@@ -18,7 +18,7 @@ readme = "README.rst"
 authors = [
     {name = "Jose D. Montoya", email = "boxplot@mailmeto.mozmail.com"}
 ]
-urls = {Homepage = "https://github.com/jposada202020/CircuitPython-UBoxplot.git"}
+urls = {Homepage = "https://github.com/jposada202020/CircuitPython_UBoxplot.git"}
 keywords = [
     "adafruit",
     "blinka",

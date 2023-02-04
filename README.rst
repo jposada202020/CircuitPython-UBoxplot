@@ -3,7 +3,7 @@ Introduction
 
 
 .. image:: https://readthedocs.org/projects/circuitpython-uboxplot/badge/?version=latest
-    :target: https://circuitpython-boxplot.readthedocs.io/
+    :target: https://circuitpython-uboxplot.readthedocs.io/
     :alt: Documentation Status
 
 
