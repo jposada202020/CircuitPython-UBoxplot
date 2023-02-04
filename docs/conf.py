@@ -47,7 +47,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "CircuitPython boxplot Library"
+project = "CircuitPython uboxplot Library"
 creation_year = "2023"
 current_year = str(datetime.datetime.now().year)
 year_duration = (
@@ -134,7 +134,7 @@ html_static_path = ["_static"]
 html_favicon = "_static/favicon.ico"
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "CircuitPython_Boxplot_Librarydoc"
+htmlhelp_basename = "CircuitPython_UBoxplot_Librarydoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -155,8 +155,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "CircuitPython_boxplot_Library.tex",
-        "CircuitPython boxplot Library Documentation",
+        "CircuitPython_uboxplot_Library.tex",
+        "CircuitPython uboxplot Library Documentation",
         author,
         "manual",
     ),
@@ -169,8 +169,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "CircuitPython_boxplot_Library",
-        "CircuitPython boxplot Library Documentation",
+        "CircuitPython_uboxplot_Library",
+        "CircuitPython uboxplot Library Documentation",
         [author],
         1,
     ),
@@ -184,10 +184,10 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "CircuitPython_boxplot_Library",
-        "CircuitPython boxplot Library Documentation",
+        "CircuitPython_uboxplot_Library",
+        "CircuitPython uboxplot Library Documentation",
         author,
-        "CircuitPython_boxplot_Library",
+        "CircuitPython_uboxplot_Library",
         "One line description of project.",
         "Miscellaneous",
     ),
