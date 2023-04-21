@@ -11,6 +11,13 @@ Introduction
     :target: https://github.com/jposada202020/CircuitPython_uboxplot/actions
     :alt: Build Status
 
+.. image:: https://img.shields.io/pypi/v/circuitpython-uboxplot.svg
+    :alt: latest version on PyPI
+    :target: https://pypi.python.org/pypi/circuitpython-uboxplot
+
+.. image:: https://static.pepy.tech/personalized-badge/circuitpython-uboxplot?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Pypi%20Downloads
+    :alt: Total PyPI downloads
+    :target: https://pepy.tech/project/circuitpython-uboxplot
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
