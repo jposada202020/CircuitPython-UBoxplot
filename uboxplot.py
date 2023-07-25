@@ -8,7 +8,7 @@
 Calculates boxplot and creates its graphical representation
 
 
-* Author(s): Jose D. Montoya
+* Author: Jose D. Montoya
 
 Implementation Notes
 --------------------
@@ -185,7 +185,7 @@ class Boxplot(displayio.TileGrid):
             / (oldrangemax - oldrangemin)
         ) + newrangemin
 
-    def print_data(self):
+    def print_data(self) -> None:
         """
         This function prints the quartiles data
 
@@ -200,7 +200,7 @@ class Boxplot(displayio.TileGrid):
         print("Minium: ", lower_whisker)
         print("Maximum: ", upper_whisker)
 
-    def draw(self):
+    def draw(self) -> None:
         """
         This function draws the boxplot
 

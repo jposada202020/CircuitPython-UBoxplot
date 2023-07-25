@@ -1,5 +1,5 @@
-BoxPlot Library
-================
+CircuitPython BoxPlot Library
+==============================
 
 .. automodule:: uboxplot
     :members:
